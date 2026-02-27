@@ -1,0 +1,21 @@
+﻿# Python
+__pycache__/
+*.py[cod]
+
+# Secrets and local credential files
+key.txt
+.env
+*.pem
+*.p12
+ocr-extraction-*.json
+*service-account*.json
+*_credentials.json
+
+# Runtime artifacts
+OCR_vision/
+EXT_vision/
+logs/
+
+# Local tools
+.vscode/
+.idea/
